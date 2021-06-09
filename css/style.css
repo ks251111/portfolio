@@ -31,3 +31,25 @@ a {
 img {
   max-width: 100%;
 }
+
+/* ヘッダー */
+header {
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  margin-top: 10px;
+}
+
+.main-nav {
+  display: flex;
+  list-style: none;
+  margin-top: 30px;
+}
+
+.main-nav li {
+  margin-left: 36px;
+}
