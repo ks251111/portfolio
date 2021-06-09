@@ -53,3 +53,11 @@ header {
 .main-nav li {
   margin-left: 36px;
 }
+
+/* フッター */
+
+footer {
+  text-align: center;
+  background-color: lightgray;
+  padding: 20px 0;
+}
