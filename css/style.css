@@ -11,3 +11,21 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+/* 共通部分 */
+body {
+  margin: 0;
+  padding: 0;
+  color: #333333;
+  font-size: 15px;
+  line-height: 2;
+}
+
+a {
+  color: #333333;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
