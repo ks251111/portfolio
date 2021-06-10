@@ -107,3 +107,13 @@ footer {
 #portfolio p {
   margin-top: 20px;
 }
+
+/* Contact */
+#contact {
+  display: flex;
+  justify-content: center;
+}
+
+#contact .content {
+  text-align: center;
+}
