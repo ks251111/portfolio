@@ -91,3 +91,19 @@ footer {
   display: flex;
   justify-content: center;
 }
+
+/* Portfolio */
+#portfolio {
+  display: flex;
+  justify-content: center;
+}
+
+#portfolio img {
+  width: 500px;
+  height: auto;
+  margin-top: 30px;
+}
+
+#portfolio p {
+  margin-top: 20px;
+}
