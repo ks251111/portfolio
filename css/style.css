@@ -61,3 +61,25 @@ footer {
   background-color: lightgray;
   padding: 20px 0;
 }
+
+/* ページトップ */
+#top {
+  background-color: #333333;
+  background-image: url(../images/top.jpeg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-blend-mode: soft-light;
+  height: 55vh;
+}
+
+#top .content h1 {
+  font-size: 80px;
+  color: #ffffff;
+}
+
+.content {
+  text-align: center;
+  padding-top: 10%;
+}
