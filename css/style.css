@@ -28,14 +28,24 @@ a {
   text-decoration: none;
 }
 
+b {
+  font-size: 20px;
+  font-family: 'Bitter', serif;
+}
+
 img {
   max-width: 100%;
+}
+
+h1,h2 {
+  font-family: 'Bitter', serif;
 }
 
 h2 {
   text-align: center;
   margin-top: 35px;
   font-size: 30px;
+  line-height: 1;
 }
 
 /* ヘッダー */
@@ -58,6 +68,8 @@ header {
 
 .main-nav li {
   margin-left: 36px;
+  font-size: 20px;
+  font-family: 'Bitter', serif;
 }
 
 /* フッター */
@@ -92,6 +104,20 @@ footer {
   justify-content: center;
 }
 
+#profile img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.profile-content {
+  display: flex;
+}
+
+.profile-text {
+  margin-left: 50px;
+}
+
 /* Portfolio */
 #portfolio {
   display: flex;
@@ -105,6 +131,7 @@ footer {
 }
 
 #portfolio p {
+  text-align: center;
   margin-top: 20px;
 }
 
