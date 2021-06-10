@@ -98,6 +98,14 @@ footer {
   border-radius: 50%;
 }
 
+.profile-content {
+  display: flex;
+}
+
+.profile-text {
+  margin-left: 50px;
+}
+
 /* Portfolio */
 #portfolio {
   display: flex;
