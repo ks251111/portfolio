@@ -32,6 +32,10 @@ img {
   max-width: 100%;
 }
 
+h1,h2 {
+  font-family: 'Bitter', serif;
+}
+
 h2 {
   text-align: center;
   margin-top: 35px;
@@ -58,6 +62,8 @@ header {
 
 .main-nav li {
   margin-left: 36px;
+  font-size: 20px;
+  font-family: 'Bitter', serif;
 }
 
 /* フッター */
