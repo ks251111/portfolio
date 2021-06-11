@@ -153,3 +153,23 @@ footer {
 #contact .content {
   text-align: center;
 }
+
+/* スマホ表示 */
+@media (max-width: 600px) {
+  body {
+    font-size: 3.5vw;
+  }
+
+  h2 {
+    font-size: 6vw;
+  }
+
+  b {
+    font-size: 4.5vw;
+  }
+
+  /* ページトップ */
+  #top .content h1 {
+    font-size: 2.5rem;
+  }
+}
