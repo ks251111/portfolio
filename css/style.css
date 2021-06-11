@@ -169,6 +169,10 @@ footer {
   }
 
   /* ページトップ */
+  #top {
+    height: 35vh;
+  }
+  
   #top .content h1 {
     font-size: 2.5rem;
   }
