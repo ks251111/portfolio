@@ -143,10 +143,6 @@ footer {
   display: flex;
 }
 
-.profile-text {
-  margin-left: 50px;
-}
-
 /* Portfolio */
 #portfolio {
   display: flex;
@@ -192,6 +188,11 @@ footer {
   .main-nav li {
     margin-left: 36px;
   }
+
+  /* Profile */
+  .profile-text {
+    margin-left: 50px;
+  }
 }
 
 /* スマホ表示 */
@@ -220,5 +221,16 @@ footer {
 
   #top .content h1 {
     font-size: 2.5rem;
+  }
+
+  /* Profile */
+  .profile-content {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .profile-text {
+    margin-top: 20px;
+    padding: 0 50px;
   }
 }
