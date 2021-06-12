@@ -62,19 +62,41 @@ header {
 }
 
 .title {
-  margin-top: 10px;
+  margin-top: 12px;
 }
 
 .main-nav {
-  display: flex;
   list-style: none;
   margin-top: 30px;
+  width: 0;
+  position: absolute;
+  z-index: 2;
+  top: 50px;
+  right: 0;
+  overflow: hidden;
+  transition: .5s;;
+  background-color: #ffffff;
+}
+
+.main-nav.open-menu {
+  width: 100%;
 }
 
 .main-nav li {
-  margin-left: 36px;
   font-size: 20px;
   font-family: 'Bitter', serif;
+  text-align: center;
+}
+
+.main-nav a {
+  display: block;
+}
+
+.btn-menu {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  padding: 12px;
 }
 
 /* フッター */
@@ -121,10 +143,6 @@ footer {
   display: flex;
 }
 
-.profile-text {
-  margin-left: 50px;
-}
-
 /* Portfolio */
 #portfolio {
   display: flex;
@@ -152,4 +170,67 @@ footer {
 
 #contact .content {
   text-align: center;
+}
+
+/* PC表示 */
+@media (min-width:600px) {
+  /* ヘッダー */
+  .btn-menu {
+    display: none;
+  }
+
+  .main-nav {
+    width: 100%;
+    position: static;
+    display: flex;
+  }
+
+  .main-nav li {
+    margin-left: 36px;
+  }
+
+  /* Profile */
+  .profile-text {
+    margin-left: 50px;
+  }
+}
+
+/* スマホ表示 */
+@media (max-width: 600px) {
+  body {
+    font-size: 3.5vw;
+  }
+
+  h2 {
+    font-size: 6vw;
+  }
+
+  b {
+    font-size: 4.5vw;
+  }
+
+  /* ヘッダー */
+  header {
+    height: 75px;
+  }
+
+  /* ページトップ */
+  #top {
+    height: 35vh;
+  }
+
+  #top .content h1 {
+    font-size: 2.5rem;
+  }
+
+  /* Profile */
+  .profile-content {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .profile-text {
+    margin-top: 20px;
+    padding: 0 50px;
+  }
 }
