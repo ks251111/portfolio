@@ -31,6 +31,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 b {
   font-size: 20px;
   font-family: 'Bitter', serif;
@@ -63,6 +67,10 @@ header {
 
 .title {
   margin-top: 12px;
+}
+
+.title a:hover {
+  text-decoration: none;
 }
 
 .main-nav {
@@ -136,6 +144,10 @@ footer {
   height: 200px;
   width: 200px;
   border-radius: 50%;
+}
+
+#profile a {
+  color: #3583aa;
 }
 
 .profile-content {
