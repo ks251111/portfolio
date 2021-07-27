@@ -63,6 +63,7 @@ header {
   justify-content: space-around;
   position: fixed;
   background-color: #ffffff;
+  border-bottom: 1px solid lightgray;
 }
 
 .title {
